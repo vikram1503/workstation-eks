@@ -1,4 +1,4 @@
-module "docker" {
+module "workstation" {
   source  = "terraform-aws-modules/ec2-instance/aws"
 
   name = "workstation"
